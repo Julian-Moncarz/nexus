@@ -22,7 +22,11 @@ See [project-overview.md](project-overveiw.md) for the full strategy and technic
 
 ## Architecture
 
-UPDATE: just get the organizers to upload their CSVs via a form once per term.
+Update on data source: just get the organizers to upload their CSVs via a form once per term
+
+Potential website design:
+<img width="1650" height="718" alt="image" src="https://github.com/user-attachments/assets/a4e96a85-8ba4-4329-9219-79151a277406" />
+
 
 ## Key Resources
 
