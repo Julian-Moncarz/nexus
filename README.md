@@ -1,48 +1,49 @@
-# Nexus
+# Nexus: AIS club data sharing
 
-A cross-club data sharing and analysis platform for AI safety organizations.
+A while ago I was working on the strategy doc for our group. **I had a few questions that could be answered by data which other groups may have, but we do not** because we are a younger org. Examples:
 
-## Overview
+- what is the conversion rate for people who do some sort of returning fellows / paper reading group program to get into other fellowships eg SPAR?
+- What is the completes SPAR → goes on to become FTE in AIS conversion rate?
+- What factors (ex major, stated value alignment) are correlated with {insert thing we want ex not dropping out of an intro fellowship}
 
-Nexus enables university clubs to share their programmatic data with other clubs and run AI-powered analyses to answer questions like:
-- What's the conversion rate from intro fellowships to specialized programs?
-- Which factors correlate with fellowship completion?
-- How do different program formats compare?
+This gave me an idea:
 
-## Features
+## **Cross-club data sharing portal**
 
-- **Data Aggregation**: Securely aggregate Airtable data from multiple clubs
-- **AI Query Interface**: Ask natural language questions and get instant analysis
-- **Unified Portal**: Browse shared curricula, resources, and best practices from other clubs
-- **Curation System**: Community upvoting and trusted recommendations
+Clubs could make their data accessible to other clubs. Potentially put the shared data into a simple portal for organizers, where an organizer could ask a question and get an answer quickly from an AI agent that has access to the datasets, has a runtime environment to run analyses and returns a short report with results (also make the raw data available to others).
 
-## Quick Start
+### Example:
 
-See [project-overview.md](project-overveiw.md) for the full strategy and technical architecture options.
+**Organizer**: {goes to portal} 
 
-## Architecture
+“% of people who have completed two or more AI safety fellowships that go on to become full-time in AI safety?”
 
-Update on data source: just get the organizers to upload their CSVs via a form once per term
+**Agent**: {Runs analysis} {presents clean report}
 
-Potential website design:
-<img width="1650" height="718" alt="image" src="https://github.com/user-attachments/assets/a4e96a85-8ba4-4329-9219-79151a277406" />
+Potential big issue:
+I don't know how many clubs have good data for this to be built on - this is also an opportunity. If we made a guide on what data to collect and how to collect it s.t. it was reasonably easy to get started, I think a lot of clubs would collect the data and thus have much better visibility into the effects of their programming? (Pathfinder could potentially mandate / strongly encourage this + have people use tools that let the data easily sync to a shared portal?) Idea: create and share template Airtable bases and forms.
 
+https://ais-groups.slack.com/archives/C05MV9Y1B1V/p1767231353581919 
 
-## Key Resources
+## Extension: also create a central repo of club’s Notion / Google Docs
 
-- [Data Collection Framework](docs/) - Schema and guidelines for clubs
-- [Technical Options Analysis](project-overveiw.md) - Detailed comparison of implementation paths
+Put an agent on top
 
-## Contributing
+**User:** find me all the intro fellowship curriculums anyone uses
 
-This project is open source and welcomes contributions. See our issues for ways to help.
+**Agent:** Finds them, presents links + recommendation + summary
 
-## Sustainability
+**Structure**
 
-- Open source and community-driven
-- Designed for low maintenance burden
-- Delegated co-maintainer model
+- Add an upvote system for everyone
+- Strong curation system from trusted subset of people who can designate "this is best"
+- AI interface
 
-## License
+## **Sustainability** (this applies to both projects)
 
-MIT
+- Open source
+- Docs
+- Co-maintainers
+    - 1+ less commitment-filled co-maintainers who you delegate tasks to with the intention: "I'm going to run this for three months then it's yours"
+- KISS
+- Catchy name
