@@ -22,11 +22,7 @@ See [project-overview.md](project-overveiw.md) for the full strategy and technic
 
 ## Architecture
 
-The system supports multiple implementation approaches:
-1. **Airtable Multi-Source Sync** (simplest MVP)
-2. **Airtable API + Custom Script** (most flexible)
-3. **ETL to PostgreSQL** (most powerful)
-4. **n8n/FlowiseAI Agent** (best AI UX)
+UPDATE: just get the organizers to upload their CSVs via a form once per term.
 
 ## Key Resources
 
