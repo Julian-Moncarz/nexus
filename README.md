@@ -23,8 +23,6 @@ Clubs could make their data accessible to other clubs. Potentially put the share
 Potential big issue:
 I don't know how many clubs have good data for this to be built on - this is also an opportunity. If we made a guide on what data to collect and how to collect it s.t. it was reasonably easy to get started, I think a lot of clubs would collect the data and thus have much better visibility into the effects of their programming? (Pathfinder could potentially mandate / strongly encourage this + have people use tools that let the data easily sync to a shared portal?) Idea: create and share template Airtable bases and forms.
 
-https://ais-groups.slack.com/archives/C05MV9Y1B1V/p1767231353581919 
-
 ## Extension: also create a central repo of club’s Notion / Google Docs
 
 Put an agent on top
